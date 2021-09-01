@@ -23,8 +23,11 @@
  
  #define CPU_LOAD_FRAME					(1000U)  /* N OS ticks */
  
- #define CPU_LOAD_CALC_CYCLES			(5u)    /* calculate CPU load N times every CPU_LOAD_FRAME  */
+ #define CPU_LOAD_CALC_CYCLES			(5u)    /* calculate CPU load N times every CPU_LOAD_FRAME (not more than 256) */
 
  /* timer ID of GPT driver */
  #define TIMER_ID						TIMER_CHANNEL_0_ID
+ 
+ /* low power mode */
+ #define CPU_SLEEP_MODE						IDLE_MODE
 #endif /* OS_CFG_H_ */
