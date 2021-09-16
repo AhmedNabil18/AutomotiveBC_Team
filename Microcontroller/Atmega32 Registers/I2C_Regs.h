@@ -16,7 +16,7 @@
 #ifndef  I2C_REGS_H_
 #define  I2C_REGS_H_
 
-#include "Microcontroller/Std_Types.h"
+#include "Std_Types.h"
 
 /* TWBR – TWI Bit Rate Register */
 

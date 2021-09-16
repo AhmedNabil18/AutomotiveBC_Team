@@ -11,10 +11,9 @@
 
 /*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
 /*-*-*-*-*- INCLUDES *-*-*-*-*-*/
-#include "Microcontroller\Platform_Types.h"
-#include "Microcontroller\Interrupt Handler\Interrupt_Interface.h"
-#include "MCAL\Dio Module\Dio.h"
-#include "MCAL/Gpt Module/Gpt.h"
+#include "..\..\Microcontroller\Platform_Types.h"
+#include "..\Dio Module\Dio.h"
+#include "../Gpt Module/Gpt.h"
 #include "SWPwm_LCfg.h"
 
 /*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
